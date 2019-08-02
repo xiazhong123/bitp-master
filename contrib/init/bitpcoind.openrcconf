@@ -1,0 +1,26 @@
+# /etc/conf.d/bitpcoind: config file for /etc/init.d/bitpcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bitpcoin/bitpcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bitpcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitpcoind.pid"
+
+# Where to write bitpcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bitpcoind"
+
+# User and group to own bitpcoind process
+#BITCOIND_USER="bitpcoin"
+#BITCOIND_GROUP="bitpcoin"
+
+# Path to bitpcoind executable
+#BITCOIND_BIN="/usr/bin/bitpcoind"
+
+# Nice value to run bitpcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

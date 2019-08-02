@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bitpcoin_bg.qm</file>
+        <file alias="ca">locale/bitpcoin_ca.qm</file>
+        <file alias="cs">locale/bitpcoin_cs.qm</file>
+        <file alias="da">locale/bitpcoin_da.qm</file>
+        <file alias="de">locale/bitpcoin_de.qm</file>
+        <file alias="en">locale/bitpcoin_en.qm</file>
+        <file alias="en_US">locale/bitpcoin_en_US.qm</file>
+        <file alias="es">locale/bitpcoin_es.qm</file>
+        <file alias="fi">locale/bitpcoin_fi.qm</file>
+        <file alias="fr_FR">locale/bitpcoin_fr_FR.qm</file>
+        <file alias="it">locale/bitpcoin_it.qm</file>
+        <file alias="ja">locale/bitpcoin_ja.qm</file>
+        <file alias="ko_KR">locale/bitpcoin_ko_KR.qm</file>
+        <file alias="nl">locale/bitpcoin_nl.qm</file>
+        <file alias="pl">locale/bitpcoin_pl.qm</file>
+        <file alias="pt">locale/bitpcoin_pt.qm</file>
+        <file alias="pt_BR">locale/bitpcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/bitpcoin_ro_RO.qm</file>
+        <file alias="ru">locale/bitpcoin_ru.qm</file>
+        <file alias="sk">locale/bitpcoin_sk.qm</file>
+        <file alias="sv">locale/bitpcoin_sv.qm</file>
+        <file alias="tr">locale/bitpcoin_tr.qm</file>
+        <file alias="uk">locale/bitpcoin_uk.qm</file>
+        <file alias="zh_CN">locale/bitpcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bitpcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

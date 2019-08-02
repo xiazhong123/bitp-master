@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=bitpcoin
+Comment=BITP P2P Cryptocurrency
+Exec=bitpcoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitpcoin128
+MimeType=x-scheme-handler/bitpcoin;
+Categories=Office;Finance;
+Name[ru]=bitpcoin-qt.desktop.desktop

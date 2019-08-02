@@ -1,0 +1,26 @@
+[Unit]
+Description=bitpcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitpcoin
+Group=bitpcoin
+
+Type=forking
+PIDFile=/var/lib/bitpcoind/bitpcoind.pid
+
+ExecStart=/usr/bin/bitpcoind -daemon -pid=/var/lib/bitpcoind/bitpcoind.pid \
+          -conf=/etc/bitpcoin/bitpcoin.conf -datadir=/var/lib/bitpcoind
+
+ExecStop=-/usr/bin/bitpcoin-cli -conf=/etc/bitpcoin/bitpcoin.conf \
+         -datadir=/var/lib/bitpcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
