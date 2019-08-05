@@ -235,7 +235,7 @@ bool LogAcceptCategory(const char* category)
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
             // "bitpcoin" is a composite category enabling all bitpcoin-related debug output
-            if (ptrCategory->count(string("Bitp"))) {
+            if (ptrCategory->count(string("bitpcoin"))) {
                 ptrCategory->insert(string("obfuscation"));
                 ptrCategory->insert(string("swiftx"));
                 ptrCategory->insert(string("masternode"));
@@ -399,7 +399,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "Bitp";
+    const char* pszModule = "bitpcoin";
 #endif
     if (pex)
         return strprintf(
@@ -426,7 +426,7 @@ boost::filesystem::path GetDefaultDataDir()
 // Unix: ~/.bitpcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Bitp";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "bitpcoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -438,10 +438,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Bitp";
+    return pathRet / "bitpcoin";
 #else
     // Unix
-    return pathRet / ".Bitp";
+    return pathRet / ".bitpcoin";
 #endif
 #endif
 }
