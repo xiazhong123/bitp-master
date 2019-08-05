@@ -1,6 +1,6 @@
 BITP Core integration/staging repository
 ======================================
-More information at [cashollar.com!](http://cashollar.com/)
+
 
 
 ***
