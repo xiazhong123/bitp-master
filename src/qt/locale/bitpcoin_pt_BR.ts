@@ -3536,8 +3536,8 @@ https://www.transifex.com/bitpcoin-project/bitpcoin-project-translations</transl
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(11011 could be used only on mainnet)</source>
-        <translation>(11011 could be used only on mainnet)</translation>
+        <source>(11012 could be used only on mainnet)</source>
+        <translation>(11012 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3548,8 +3548,8 @@ https://www.transifex.com/bitpcoin-project/bitpcoin-project-translations</transl
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 11011 for mainnet)</source>
-        <translation>(deve ser 11011 para mainnet)</translation>
+        <source>(must be 11012 for mainnet)</source>
+        <translation>(deve ser 11012 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
