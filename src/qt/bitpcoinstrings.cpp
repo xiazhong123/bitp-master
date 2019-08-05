@@ -206,10 +206,10 @@ QT_TRANSLATE_NOOP("bitpcoin-core", ""
 QT_TRANSLATE_NOOP("bitpcoin-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("bitpcoin-core", "(11011 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("bitpcoin-core", "(11012 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("bitpcoin-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("bitpcoin-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("bitpcoin-core", "(must be 11011 for mainnet)"),
+QT_TRANSLATE_NOOP("bitpcoin-core", "(must be 11012 for mainnet)"),
 QT_TRANSLATE_NOOP("bitpcoin-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("bitpcoin-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("bitpcoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
