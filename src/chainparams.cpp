@@ -87,12 +87,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xe9;
-        pchMessageStart[1] = 0xb3;
-        pchMessageStart[2] = 0xf3;
+        pchMessageStart[0] = 0xb9;
+        pchMessageStart[1] = 0xb4;
+        pchMessageStart[2] = 0x2e;
         pchMessageStart[3] = 0x2e;
 
-        nDefaultPort = 11119;
+        nDefaultPort = 11120;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         bnStartWork = ~uint256(0) >> 24;
 
