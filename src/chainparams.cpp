@@ -92,7 +92,7 @@ public:
         pchMessageStart[2] = 0x2e;
         pchMessageStart[3] = 0x2e;
 
-        nDefaultPort = 11121;
+        nDefaultPort = 11120;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         bnStartWork = ~uint256(0) >> 24;
 
